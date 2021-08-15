@@ -4,8 +4,8 @@ public class Address {
     // 도로명 주소와 지번 주소 모두 조회 가능
     private String roadAddress;
     private String jibunAddress;
-    private String x;
-    private String y;
+    private String x; // 경도
+    private String y; // 위도
 
     public Address() {
     }
@@ -30,7 +30,7 @@ public class Address {
         return x;
     }
 
-    public void setX(String x) { // 경도
+    public void setX(String x) {
         this.x = x;
     }
 

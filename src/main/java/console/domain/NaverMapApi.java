@@ -46,6 +46,7 @@ public class NaverMapApi {
     }
 
     public static String getApiUrl(String address) throws UnsupportedEncodingException {
+        // encode : string을 x-www-form-urlencoded format으로 변환시켜줌
         String encodeAddress = URLEncoder.encode(address, UTF_8); // UTF_8로 인코딩
         return NAVER_MAP_API_URL + encodeAddress;
     }

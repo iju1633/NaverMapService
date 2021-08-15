@@ -15,13 +15,13 @@ import javax.swing.JTextField;
 
 public class Gui {
 
-    private static final String JFRAME_MAP_DESCRIPTION = "지도보기";
+    private static final String JFRAME_MAP_DESCRIPTION = "지도 보기";
     private static final String JFRAME_TITLE_SUBJECT = "Map View";
-    private static final String JFRAME_INPUT_ADDRESS = "주소입력";
-    private static final String JFRAME_BUTTON_CLICK = "클릭";
+    private static final String JFRAME_INPUT_ADDRESS = "주소 입력";
+    private static final String JFRAME_BUTTON_CLICK = "조회하기";
 
-    private static final String PRINT_ADDRESS_NAME = "도로명";
-    private static final String PRINT_JIBUN_ADDRESS = "지번주소";
+    private static final String PRINT_ADDRESS_NAME = "도로명 주소";
+    private static final String PRINT_JIBUN_ADDRESS = "지번 주소";
     private static final String PRINT_LONGITUDE = "경도";
     private static final String PRINT_LATITUDE = "위도";
 

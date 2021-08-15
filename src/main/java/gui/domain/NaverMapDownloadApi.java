@@ -18,8 +18,6 @@ public class NaverMapDownloadApi {
     private static final String NAVER_MAP_DOWNLOAD_API_URL_CENTER_KEY = "center=";
     private static final String COMMA = ",";
     private static final String NAVER_MAP_DOWNLOAD_API_URL_LEVEL_VALUE = "&level=16&w=700&h=500";
-    //private static final String NAVER_MAP_DOWNLOAD_API_URL_MARKER = "&markers=type:t|size:mid|pos:";
-    //private static final String NAVER_MAP_DOWNLOAD_API_URL_LABEL = "|label:";
     private static final String IMAGE_TYPE = ".jpg";
     // 네이버 Static Map API 사용
     private static final String NAVER_MAP_DOWNLOAD_API_URL = "https://naveropenapi.apigw.ntruss.com/map-static/v2/raster?";
@@ -68,11 +66,7 @@ public class NaverMapDownloadApi {
                 .append(address.getX())
                 .append(COMMA)
                 .append(address.getY())
-                .append(NAVER_MAP_DOWNLOAD_API_URL_LEVEL_VALUE); //
-//                .append(NAVER_MAP_DOWNLOAD_API_URL_MARKER)
-//                .append(position)
-//                .append(NAVER_MAP_DOWNLOAD_API_URL_LABEL)
-//                .append(URLEncoder.encode(address.getRoadAddress(), UTF_8));
+                .append(NAVER_MAP_DOWNLOAD_API_URL_LEVEL_VALUE);
         return imageDownloadApiUrl.toString();
     }
 
